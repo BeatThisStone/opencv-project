@@ -31,8 +31,8 @@ while cv2.waitKey(1)!=ord('q'): # Premere q per terminare
 
     lower_red1 = np.array([0, 50,100])
     upper_red1= np.array([10,255,255])           
-    lower_red2 = np.array([160, 50,100])
-    upper_red2 = np.array([180, 50,100])
+    lower_red2 = np.array([160, 50, 100])
+    upper_red2 = np.array([180, 255, 255])
     
     
     lower_green = np.array([35, 40, 40])
